@@ -1,5 +1,5 @@
 def max_calories():
-    with open('calorie.txt','r') as input_file:
+    with open('2022_Challenge_1/calorie.txt','r') as input_file:
         data_str = input_file.read()
         data_array = data_str.split('\n\n') # Split on all instances of double new lines
 
@@ -13,7 +13,7 @@ def max_calories():
         return max(sum_calories)
 
 def calories_three_elves():
-    with open('calorie.txt','r') as input_file:
+    with open('2022_Challenge_1/calorie.txt','r') as input_file:
         data_str = input_file.read()
         data_array = data_str.split('\n\n') # Split on all instances of double new lines
 

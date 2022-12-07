@@ -18,7 +18,7 @@ def sum_items():
     lowercase_values, uppercase_values = assign_aplhabets()
     sum_common_string = 0
 
-    for items in csv.reader(open('rucksack_items.txt')):
+    for items in csv.reader(open('2022_Challenge_3/rucksack_items.txt')):
         value = items[0]
         firstpart, secondpart = value[:len(value)//2], value[len(value)//2:]
 
@@ -37,7 +37,7 @@ def sum_badges():
     sum_badges = 0
     value = []
     
-    for items in csv.reader(open('rucksack_items.txt')):
+    for items in csv.reader(open('2022_Challenge_3/rucksack_items.txt')):
         value.append(items[0])
 
     for i in range(0, len(value), 3):

@@ -6,7 +6,7 @@ def high_score():
     Z = 3 # Scissors
 
     sum = 0
-    for startegies in csv.reader(open('rps_challenge.txt')):
+    for startegies in csv.reader(open('2022_Challenge_2/rps_challenge.txt')):
         value = startegies[0].split(' ')
         
         if value[0] == 'A' and value[1] == 'X':
@@ -44,7 +44,7 @@ def high_score_part_two():
     Z = C = 3 # Scissors
 
     sum = 0
-    for startegies in csv.reader(open('rps_challenge.txt')):
+    for startegies in csv.reader(open('2022_Challenge_2/rps_challenge.txt')):
         value = startegies[0].split(' ')
         
         if value[0] == 'A' and value[1] == 'X':
